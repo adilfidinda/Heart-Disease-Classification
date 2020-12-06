@@ -78,7 +78,7 @@ Fasting Blood Sugar is used to measure the concentration of glucose in the blood
 ![alt text](images/confusion_matrix.JPG)
 
 Fatal error if:
-- Actually, the patient has heart disease, but the model predicts not having heart disease. This can endanger the patient's life
+- Actually, the patient has heart disease, but the model predicts not having heart disease. This can cause a danger to patient's life
 - The focus will be on as few False Negatives as possible
 
 SVM is the best model to predict heart disease based on this data
