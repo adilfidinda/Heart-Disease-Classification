@@ -74,6 +74,7 @@ Fasting Blood Sugar is used to measure the concentration of glucose in the blood
 
 ## Modelling
 ![alt text](images/recall.JPG)
+
 ![alt text](images/confusion_matrix.JPG)
 
 Fatal error if:
