@@ -46,4 +46,33 @@ Classify risk for heart disease for better prevention
   - 1 : heart disease
   - 0 : not heart disease
 
+## Exploratory Data Analysis
 
+![alt text](images/condition.JPG)
+
+Based on this figure, from the data obtained, it is known that 46.13% of patients have heart disease, while the rest are known to have no heart disease.
+
+![alt text](images/gender.JPG)
+
+Male is more risky than female
+
+![alt text](images/distribution.JPG)
+
+Most of the patients are aged 60 years. Very few patients aged between 30 and 75 years and over were recorded
+
+![alt text](images/age.JPG)
+
+Risk of heart disease increases with as well as increasing age. Ages 40 and over have an increased risk with a peak between 50 and early 60 years.
+
+![alt text](images/chest_pain.JPG)
+
+Majority of patients who developed heart disease did not present with symptoms such as chest pain
+
+![alt text](images/fbs.JPG)
+
+Fasting Blood Sugar is used to measure the concentration of glucose in the blood. When fasting, the level of glucose in the blood will be relatively constant because the body starts to use glycogen as energy. The American Diabetes Association states that patients who have normal blood sugar levels between 70-99 mg / dL and then patients who have blood sugar levels above 120 mg / dL are categorized as obese. From the picture above, it is known that there are many patients who have blood sugar levels below 120 mg / dL. There is no significant difference in blood sugar levels between patients with heart disease and those who are not affected, so this feature is not suitable for further modeling.
+
+## Modelling
+Fatal error if:
+- Actually, the patient has heart disease, but the model predicts not having heart disease. This can endanger the patient's life
+- The focus will be on as few False Negatives as possible
