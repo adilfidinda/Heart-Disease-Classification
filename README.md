@@ -73,6 +73,13 @@ Majority of patients who developed heart disease did not present with symptoms s
 Fasting Blood Sugar is used to measure the concentration of glucose in the blood. When fasting, the level of glucose in the blood will be relatively constant because the body starts to use glycogen as energy. The American Diabetes Association states that patients who have normal blood sugar levels between 70-99 mg / dL and then patients who have blood sugar levels above 120 mg / dL are categorized as obese. From the picture above, it is known that there are many patients who have blood sugar levels below 120 mg / dL. There is no significant difference in blood sugar levels between patients with heart disease and those who are not affected, so this feature is not suitable for further modeling.
 
 ## Modelling
+![alt text](images/recall.JPG)
+![alt text](images/confusion_matrix.JPG)
+
 Fatal error if:
 - Actually, the patient has heart disease, but the model predicts not having heart disease. This can endanger the patient's life
 - The focus will be on as few False Negatives as possible
+
+SVM is the best model to predict heart disease based on this data
+
+
